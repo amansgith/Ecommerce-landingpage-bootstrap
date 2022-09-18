@@ -1,0 +1,222 @@
+body {
+    font-family: 'Rubik', space, 'cormorant', 'work sans';
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 4% 10%;
+}
+
+#title {
+    background-color: #922EC8;
+    text-align: left;
+    color: white;
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navigation-bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 1.7rem;
+
+}
+
+.nav-item {
+    padding: 0 5px;
+}
+
+/* title  */
+
+h1 {
+    font-size: 3.6rem;
+    line-height: 1.5;
+}
+
+.down-btn {
+    margin: 5% 10px;
+}
+
+.img-fluid {
+    margin-top: 5% 0 10%;
+    height: 90%;
+    width: 90%;
+    border-radius: 60%;
+
+}
+
+/* feature-section */
+
+#features {
+    background-color: white;
+    padding: 7% 8%;
+}
+
+.h3 {
+    font-size: 1.5rem;
+}
+
+.feature-par {
+    color: #8f8f8f;
+}
+
+.feat-icon {
+    color: #c574f1;
+    margin: 10% 20%;
+}
+
+.feat-icon:hover {
+    color: #922EC8;
+}
+
+
+/* wear-sectiion  */
+
+#wear-type {
+    background-color: #c574f1;
+    padding: 2% 15% 7%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wear-h2 {
+    padding-bottom: 30px;
+    color: white;
+}
+
+
+/* brand-list */
+
+#brand-list {
+    padding: 3% 9% 7%;
+}
+
+.brand-img {
+    width: 100%;
+
+}
+
+.brand-h2 {
+    padding-bottom: 40px;
+}
+
+/* testimonials-section  */
+
+#testimonials {
+    padding: 2% 12% 0;
+    background-color: #c574f1;
+    color: white;
+}
+
+.testim-h2 {
+    padding: 2% 0 6%;
+}
+
+.testim-img {
+    width: 10%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding: 2%;
+}
+
+/* press log */
+
+#press {
+    background-color: #c574f1;
+    padding: 3%;
+}
+
+.press-logo {
+    background-color: #c574f1;
+    width: 22%;
+    margin: 10px 20px 10px;
+}
+
+/* subscription-pricing  */
+
+#subscription-pricing {
+    padding: 2% 7%;
+}
+
+.subs-h2 {
+    padding: 2% 0 0;
+}
+
+.pricing-card {
+    padding: 3% 3% 5%;
+}
+
+.pricing-btn {
+    background-color: #922EC8;
+}
+
+.pricing-btn:hover {
+    background-color: #c574f1;
+}
+
+.card {
+    border-radius: 10%;
+}
+
+.card:hover {
+    transform: scale(1.1);
+
+}
+
+/* calltoattention  */
+
+#cta {
+    background-color: #922EC8;
+    color: white;
+    padding: 50px 15px;
+}
+
+.cta-btn {
+    margin: 20px 10px 0;
+}
+
+
+/* footer */
+
+#footer {
+    padding: 4% 0;
+}
+
+.social-icon {
+    margin: 30px 10px;
+    color: black;
+}
+
+.social-icon:hover {
+    color: black;
+}
+
+/* media query breakpoints  */
+
+@media (max-width: 900px) {
+    #title {
+        text-align: center;
+    }
+
+    .wear-card {
+        padding: 2%;
+    }
+
+    #testimonials {
+        padding: 0;
+    }
+
+    .carousel-item {
+        padding: 2% 15% 0;
+    }
+}
